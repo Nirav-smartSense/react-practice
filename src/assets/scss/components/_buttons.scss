@@ -1,0 +1,30 @@
+.btn{
+    border: 0;
+    padding: 1.8rem 1.5rem;
+    font-family: $font-family;
+    font-size: 1.4rem;
+    font-weight: 500;
+    outline: 0;
+    cursor: pointer;
+
+    img, svg{
+        height: 19px;
+        width: 19px;
+        vertical-align: bottom;
+        margin-right: 10px;
+    }
+}
+
+.btn-primary{
+    background-color: $blue_shade;
+    color: $white-color;
+    font-weight: 600;
+    border-radius: 9px;
+}
+
+.btn-rounded{
+    background-color: $white-color;
+    border-radius: 30px;
+    border: 1px solid $gray_color_2;
+    color: $black_shade;
+}
